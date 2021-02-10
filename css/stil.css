@@ -1,0 +1,170 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    background-color: black;
+}
+
+.logo span {
+    font-family: 'Lobster', cursive;
+    color: #0DC4D9;
+}
+
+.banner {
+    height: auto;
+    overflow: hidden;
+}
+
+.banner img {
+    opacity: .6;
+    transition: ease-in-out opacity .8s;
+    -webkit-transition: ease-in-out opacity .8s;
+    -moz-transition: ease-in-out opacity .8s;
+    -ms-transition: ease-in-out opacity .8s;
+    -o-transition: ease-in-out opacity .8s;
+}
+
+.banner img:hover {
+    opacity: 1;
+}
+
+.hprf0,
+.hprf1,
+.hprf2 {
+    text-align: justify;
+}
+
+#hakkimizda img {
+    filter: brightness(75%);
+    -webkit-filter: brightness(75%);
+}
+
+.p_img {
+    transition: ease-in-out opacity .8s;
+    -webkit-transition: ease-in-out opacity .8s;
+    -moz-transition: ease-in-out opacity .8s;
+    -ms-transition: ease-in-out opacity .8s;
+    -o-transition: ease-in-out opacity .8s;
+}
+
+.p_img:hover {
+    opacity: .5;
+}
+
+#takim {
+    background-image: url(img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(75%);
+    -webkit-filter: brightness(75%);
+}
+
+#takim i {
+    color: #0DC4D9;
+}
+
+#takim i:hover {
+    color: #D93B23;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    transition: transform 1s;
+    -webkit-transition: transform 1s;
+    -moz-transition: transform 1s;
+    -ms-transition: transform 1s;
+    -o-transition: transform 1s;
+}
+
+.card:hover {
+    transform: translateY(20px);
+    -webkit-transform: translateY(20px);
+    -moz-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    -o-transform: translateY(20px);
+}
+
+footer .container {
+    border-left: 4px solid #D93B23;
+    border-right: 4px solid #D93B23;
+}
+
+footer i {
+    color: #0DC4D9;
+}
+
+footer i:hover {
+    color: #D93B23;
+}
+
+@media screen and (min-width:960px) {
+    .htext {
+        letter-spacing: 1em;
+        font-weight: bold;
+        color: #dfe6e9;
+        font-size: 1rem;
+        margin: 0%;
+    }
+    .hbas {
+        font-size: 4rem;
+        margin: 0%;
+    }
+    .hbas span {
+        font-size: 2rem;
+        margin: 0%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .htext {
+        letter-spacing: 1em;
+        font-weight: bold;
+        color: #dfe6e9;
+        font-size: 1rem;
+        margin: 0%;
+    }
+    .hbas {
+        font-size: 3rem;
+        margin: 0%;
+    }
+    .hbas span {
+        font-size: 1rem;
+        margin: 0%;
+    }
+    .hprf2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .htext {
+        letter-spacing: 1px;
+        margin: 0%;
+        color: #dfe6e9;
+    }
+    .hbas {
+        font-size: 1rem;
+        margin: 0%;
+    }
+    .hbas span {
+        font-size: .8rem;
+        margin: 0%;
+    }
+    .hprf1,
+    .hprf2 {
+        display: none;
+    }
+    .hprf0 {
+        font-size: 12px;
+    }
+}
